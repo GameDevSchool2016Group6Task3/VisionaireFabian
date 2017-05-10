@@ -1082,7 +1082,6 @@
 				<Link parentLink="T" id="24" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="42" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="43" tableId="6" LinkAny="F"/>
-				<Link parentLink="T" id="44" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1376,7 +1375,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="45" versionedId="-1" tableId="6">
+	<Objects newId="44" versionedId="-1" tableId="6">
 		<Object name="START" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="12" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2199,29 +2198,8 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Kasowac" id="44" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
-			<ObjectName parentLink="T" id="103" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
-				<Link parentLink="T" id="42" tableId="7" LinkAny="F"/>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-		</Object>
 	</Objects>
-	<Actions newId="43" versionedId="-1" tableId="7">
+	<Actions newId="41" versionedId="-1" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2467,15 +2445,8 @@
 				<Link parentLink="T" id="57" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;LOOK&apos; executed" id="42" order="0" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="65" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 	</Actions>
-	<ActionParts newId="66" versionedId="-1" tableId="8">
+	<ActionParts newId="58" versionedId="-1" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2663,10 +2634,6 @@
 		<ActionPart name="Display text by character &apos;Kiszon&apos;" id="57" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="101" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Display text by character &apos;Current character&apos;" id="65" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="112" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="100" versionedId="-1" tableId="9">
@@ -7550,7 +7517,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="113" versionedId="-1" tableId="14">
+	<Texts newId="103" versionedId="-1" tableId="14">
 		<Text name="Unnamed" id="1" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Targ_front" path="" int="0"/>
@@ -7941,16 +7908,6 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="103" order="103" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="112" order="112" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="To jest tekst testowy" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
 	</Texts>
 	<Cursors newId="4" versionedId="-1" tableId="15">
 		<Cursor name="Walk" id="0" order="0" lastModified="-1">
@@ -8109,7 +8066,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="0" versionedId="-1" tableId="28">
+	<AnimationFrames newId="1" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="6" versionedId="-1" tableId="29">
 		<WaySystem name="Way system0" id="0" order="0" lastModified="-1">
