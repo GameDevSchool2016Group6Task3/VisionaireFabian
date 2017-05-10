@@ -2437,17 +2437,16 @@
 			<ActionActionParts>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;LOOK&apos; executed" id="40" order="0" lastModified="1" ActionExecutionType="6">
+		<Action name="&apos;LOOK&apos; executed" id="40" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="55" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="57" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="60" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="61" versionedId="57" tableId="8">
+	<ActionParts newId="58" versionedId="57" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2635,10 +2634,6 @@
 		<ActionPart name="Display text by character &apos;Kiszon&apos;" id="57" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="101" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Display text by character &apos;Current character&apos;" id="60" order="2" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="105" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="100" versionedId="99" tableId="9">
@@ -7522,7 +7517,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="106" versionedId="102" tableId="14">
+	<Texts newId="103" versionedId="102" tableId="14">
 		<Text name="Unnamed" id="1" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Targ_front" path="" int="0"/>
@@ -7911,11 +7906,6 @@
 		<Text name="Unnamed" id="102" order="102" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="105" order="105" lastModified="1">
-			<TextTextLanguages>
-				<text Text="Testowy tekst" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
