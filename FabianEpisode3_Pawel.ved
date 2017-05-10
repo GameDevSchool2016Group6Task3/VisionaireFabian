@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<VisionaireAdventure projectType="0" revision="1" version="178">
+<VisionaireAdventure projectType="1" revision="1" version="178">
 	<Game name="" id="1" order="1" lastModified="-1" GameId="9302" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="0" GameFadeDelay="600" GameScrollSpeed="70" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="C:/Users/marek/Desktop/Fabian/Fabian.vis" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="video" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Grupa6" GameGameName="Zadanie3" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T">
 		<GameSceneLinks>
 			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
@@ -2636,7 +2636,7 @@
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="101" versionedId="100" tableId="9">
+	<Animations newId="100" versionedId="99" tableId="9">
 		<Animation name="Unnamed" id="9" order="9" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>

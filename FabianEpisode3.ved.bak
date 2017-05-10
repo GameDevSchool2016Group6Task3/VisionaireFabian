@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<VisionaireAdventure projectType="-1" revision="-1" version="178">
+<VisionaireAdventure projectType="0" revision="1" version="178">
 	<Game name="" id="1" order="1" lastModified="-1" GameId="9302" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="0" GameFadeDelay="600" GameScrollSpeed="70" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="C:/Users/marek/Desktop/Fabian/Fabian.vis" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="video" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Grupa6" GameGameName="Zadanie3" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T">
 		<GameSceneLinks>
 			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
@@ -74,7 +74,7 @@
 		<GameMouseWheelUpAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameMouseWheelDownAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 	</Game>
-	<Loadings newId="1" versionedId="-1" tableId="21">
+	<Loadings newId="1" versionedId="0" tableId="21">
 		<Loading name="Unnamed" id="0" order="0" lastModified="-1" LoadingMusic="" LoadingStatusCover="F">
 			<LoadingSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -84,7 +84,7 @@
 			</LoadingStatusSprite>
 		</Loading>
 	</Loadings>
-	<Characters newId="5" versionedId="-1" tableId="0">
+	<Characters newId="5" versionedId="4" tableId="0">
 		<Character name="Fabian" id="0" order="1" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100">
 			<CharacterName parentLink="T" id="5" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
@@ -264,7 +264,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 		</Character>
 	</Characters>
-	<Interfaces newId="3" versionedId="-1" tableId="1">
+	<Interfaces newId="3" versionedId="2" tableId="1">
 		<Interface name="MOUSE" id="0" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -345,7 +345,7 @@
 			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
 		</Interface>
 	</Interfaces>
-	<Buttons newId="9" versionedId="-1" tableId="2">
+	<Buttons newId="9" versionedId="8" tableId="2">
 		<Button name="LOOK" id="0" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="0" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F">
 			<ButtonActiveSprite parentLink="T" id="0" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="1" tableId="13" LinkAny="F"/>
@@ -533,7 +533,7 @@
 			</ButtonGroup>
 		</Button>
 	</Buttons>
-	<Fonts newId="3" versionedId="-1" tableId="3">
+	<Fonts newId="3" versionedId="2" tableId="3">
 		<Font name="FONT_Piotrex" id="0" order="0" lastModified="-1" FontAlphabet="!&quot;#$%&amp;&apos;()*+.-,/?123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]&apos;-&apos;abcdefghijklmnopqrstuvwxyzĄŚĆŻĘŁąśćżęłńóźŃÓŹ" FontLetterSpacing="1" VerticalLetterSpacing="3" FontSpaceWidth="7" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="graphics/Font_05.png" Transparency="-1">
 				<position x="0" y="0"/>
@@ -886,7 +886,7 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="10" versionedId="-1" tableId="4">
+	<Scenes newId="10" versionedId="9" tableId="4">
 		<Scene name="Targ_front" id="1" order="1" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/targ_front.jpg" Transparency="-1">
 				<position x="0" y="0"/>
@@ -1154,7 +1154,7 @@
 			</SceneActionAreas>
 		</Scene>
 	</Scenes>
-	<Points newId="41" versionedId="-1" tableId="5">
+	<Points newId="41" versionedId="40" tableId="5">
 		<Point name="Point0" id="0" order="0" lastModified="-1" PointSize="85">
 			<PointPosition x="627" y="705"/>
 			<PointRelations>
@@ -1375,7 +1375,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="44" versionedId="-1" tableId="6">
+	<Objects newId="44" versionedId="43" tableId="6">
 		<Object name="START" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="12" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2199,7 +2199,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
 	</Objects>
-	<Actions newId="41" versionedId="-1" tableId="7">
+	<Actions newId="41" versionedId="40" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2446,7 +2446,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="58" versionedId="-1" tableId="8">
+	<ActionParts newId="58" versionedId="57" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2636,7 +2636,7 @@
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="100" versionedId="-1" tableId="9">
+	<Animations newId="101" versionedId="100" tableId="9">
 		<Animation name="Unnamed" id="9" order="9" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7318,7 +7318,7 @@
 			</AnimationWalkSteps>
 		</Animation>
 	</Animations>
-	<Conditions newId="4" versionedId="-1" tableId="10">
+	<Conditions newId="4" versionedId="3" tableId="10">
 		<Condition name="Marchewka_CONDITION" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="T" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
 			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7340,7 +7340,7 @@
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="44" versionedId="-1" tableId="13">
+	<Sprites newId="44" versionedId="43" tableId="13">
 		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -7517,7 +7517,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="103" versionedId="-1" tableId="14">
+	<Texts newId="103" versionedId="102" tableId="14">
 		<Text name="Unnamed" id="1" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Targ_front" path="" int="0"/>
@@ -7909,7 +7909,7 @@
 			</TextTextLanguages>
 		</Text>
 	</Texts>
-	<Cursors newId="4" versionedId="-1" tableId="15">
+	<Cursors newId="4" versionedId="3" tableId="15">
 		<Cursor name="Walk" id="0" order="0" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="9" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="10" tableId="9" LinkAny="F"/>
@@ -7925,7 +7925,7 @@
 	</Cursors>
 	<CommentSets newId="0" versionedId="-1" tableId="16">
 	</CommentSets>
-	<Outfits newId="8" versionedId="-1" tableId="17">
+	<Outfits newId="8" versionedId="7" tableId="17">
 		<Outfit name="Unnamed" id="1" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T">
 			<OutfitWalkAnimations>
 				<Link parentLink="T" id="21" tableId="9" LinkAny="F"/>
@@ -8054,7 +8054,7 @@
 			</OutfitModelTextures>
 		</Outfit>
 	</Outfits>
-	<Languages newId="1" versionedId="-1" tableId="18">
+	<Languages newId="1" versionedId="0" tableId="18">
 		<Language name="Polski" id="0" order="0" lastModified="-1">
 		</Language>
 	</Languages>
@@ -8066,9 +8066,9 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="1" versionedId="-1" tableId="28">
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
-	<WaySystems newId="6" versionedId="-1" tableId="29">
+	<WaySystems newId="6" versionedId="5" tableId="29">
 		<WaySystem name="Way system0" id="0" order="0" lastModified="-1">
 			<WaySystemBorder>
 				<point x="5" y="717"/>
@@ -8185,7 +8185,7 @@
 	</WaySystems>
 	<Scripts newId="0" versionedId="-1" tableId="30">
 	</Scripts>
-	<InterfaceClasses newId="5" versionedId="-1" tableId="31">
+	<InterfaceClasses newId="5" versionedId="4" tableId="31">
 		<InterfaceClass name="Main interface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
 		</InterfaceClass>
 		<InterfaceClass name="Inventory" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
