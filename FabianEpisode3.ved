@@ -9,8 +9,8 @@
 			<Link parentLink="T" id="5" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="6" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="7" tableId="4" LinkAny="F"/>
-			<Link parentLink="T" id="8" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="9" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="11" tableId="4" LinkAny="F"/>
 		</GameSceneLinks>
 		<GameCharacterLinks>
 			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
@@ -22,6 +22,7 @@
 			<Link parentLink="T" id="0" tableId="1" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="1" LinkAny="F"/>
 			<Link parentLink="T" id="2" tableId="1" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="1" LinkAny="F"/>
 		</GameInterfaces>
 		<GameFontLinks>
 			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
@@ -31,7 +32,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="7" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="2" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="17" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="18" tableId="6" LinkAny="F"/>
@@ -264,7 +265,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 		</Character>
 	</Characters>
-	<Interfaces newId="3" versionedId="-1" tableId="1">
+	<Interfaces newId="4" versionedId="-1" tableId="1">
 		<Interface name="MOUSE" id="0" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -344,8 +345,37 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
 		</Interface>
+		<Interface name="dialogi" id="3" order="3" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+				<Link parentLink="T" id="9" tableId="2" LinkAny="F"/>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="0" y="0"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+				<point x="29" y="65"/>
+				<point x="34" y="251"/>
+				<point x="293" y="248"/>
+				<point x="346" y="95"/>
+				<point x="-10000" y="-10000"/>
+				<point x="82" y="296"/>
+				<point x="95" y="391"/>
+				<point x="305" y="380"/>
+				<point x="359" y="274"/>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="0" tableId="31" LinkAny="F"/>
+		</Interface>
 	</Interfaces>
-	<Buttons newId="9" versionedId="-1" tableId="2">
+	<Buttons newId="10" versionedId="-1" tableId="2">
 		<Button name="LOOK" id="0" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="0" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F">
 			<ButtonActiveSprite parentLink="T" id="0" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="1" tableId="13" LinkAny="F"/>
@@ -522,6 +552,23 @@
 				<point x="805" y="14"/>
 				<point x="803" y="84"/>
 				<point x="691" y="84"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+		</Button>
+		<Button name="Button0" id="9" order="0" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F">
+			<ButtonActiveSprite parentLink="T" id="45" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="46" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="123" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="124" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
 			</ButtonPolygon>
 			<ButtonActions>
 			</ButtonActions>
@@ -886,8 +933,8 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="10" versionedId="-1" tableId="4">
-		<Scene name="Targ_front" id="1" order="1" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+	<Scenes newId="12" versionedId="-1" tableId="4">
+		<Scene name="Targ_front" id="1" order="4" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/targ_front.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -916,7 +963,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="MENU" id="2" order="4" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="MENU" id="2" order="7" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/MainMenu.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -947,7 +994,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Targ_lewo" id="3" order="2" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Targ_lewo" id="3" order="5" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/targ_lewy.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -984,7 +1031,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Targ_prawo" id="4" order="3" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Targ_prawo" id="4" order="6" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/targ_prawy.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1014,7 +1061,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Scene1" id="5" order="5" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Scene1" id="5" order="1" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/Widok_01.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1045,7 +1092,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Scene2" id="6" order="6" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Scene2" id="6" order="2" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/Widok_02.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1073,7 +1120,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Scene3" id="7" order="7" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Scene3" id="7" order="3" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/Widok_03.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1082,6 +1129,8 @@
 				<Link parentLink="T" id="24" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="42" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="43" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="46" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="47" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1102,13 +1151,12 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="INTRO" id="8" order="8" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="graphics/intro.jpg" Transparency="-1">
+		<Scene name="OUTRO" id="9" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="graphics/outro.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
-			<SceneName parentLink="T" id="84" tableId="14" LinkAny="F"/>
+			<SceneName parentLink="T" id="86" tableId="14" LinkAny="F"/>
 			<SceneObjects>
-				<Link parentLink="T" id="36" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1128,14 +1176,15 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="OUTRO" id="9" order="9" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="graphics/outro.jpg" Transparency="-1">
+		<Scene name="Intro" id="11" order="9" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="graphics/intro.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
-			<SceneName parentLink="T" id="86" tableId="14" LinkAny="F"/>
+			<SceneName parentLink="T" id="111" tableId="14" LinkAny="F"/>
 			<SceneObjects>
+				<Link parentLink="T" id="44" tableId="6" LinkAny="F"/>
 			</SceneObjects>
-			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCursor parentLink="F" id="2" tableId="15" LinkAny="F"/>
 			<SceneSavegameAreas>
 			</SceneSavegameAreas>
 			<SceneValues>
@@ -1144,7 +1193,7 @@
 			</SceneConditions>
 			<SceneActions>
 			</SceneActions>
-			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
 			<SceneWaySystems>
@@ -1375,7 +1424,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="44" versionedId="-1" tableId="6">
+	<Objects newId="48" versionedId="-1" tableId="6">
 		<Object name="START" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="12" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -1925,7 +1974,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="GO_Scene2" id="24" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="GO_Scene2" id="24" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="70" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="321" y="717"/>
@@ -2039,27 +2088,7 @@
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="36" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="37" tableId="7" LinkAny="F"/>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-		</Object>
-		<Object name="terkst01" id="36" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
-			<ObjectName parentLink="T" id="85" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
+				<Link parentLink="T" id="45" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2153,7 +2182,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="GO_START" id="42" order="1" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="GO_START" id="42" order="2" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="93" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2173,19 +2202,14 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="NPC_Kiszon" id="43" order="2" lastModified="-1" ObjectDirection="270" ObjectCenter="460" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="NPC_Kiszon" id="43" order="0" lastModified="-1" ObjectDirection="270" ObjectCenter="460" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="96" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="653" y="340"/>
-				<point x="649" y="514"/>
-				<point x="693" y="514"/>
-				<point x="693" y="338"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
-				<Link parentLink="T" id="40" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2193,13 +2217,83 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="675" y="525"/>
+			<ObjectPosition x="695" y="508"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Object0" id="44" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="729" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="114" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="0" y="1"/>
+				<point x="1279" y="1"/>
+				<point x="1267" y="726"/>
+				<point x="0" y="725"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="44" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="47" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="dialog_Kiszon" id="46" order="3" lastModified="-1" ObjectDirection="45" ObjectCenter="528" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="134" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="638" y="336"/>
+				<point x="642" y="497"/>
+				<point x="732" y="496"/>
+				<point x="730" y="334"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="49" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="639" y="532"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="przysloniecie" id="47" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="511" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="137" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="47" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
 	</Objects>
-	<Actions newId="41" versionedId="-1" tableId="7">
+	<Actions newId="50" versionedId="-1" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2424,29 +2518,39 @@
 				<Link parentLink="T" id="52" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Left click" id="37" order="1" lastModified="-1" ActionExecutionType="7">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="53" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 		<Action name="&apos;&apos; executed" id="38" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;LOOK&apos; executed" id="40" order="0" lastModified="-1" ActionExecutionType="6">
+		<Action name="Left click" id="45" order="1" lastModified="-1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="64" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="47" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="69" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="70" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="71" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;LOOK&apos; executed" id="49" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
-				<Link parentLink="T" id="55" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="57" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="78" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="79" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="80" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="58" versionedId="-1" tableId="8">
+	<ActionParts newId="81" versionedId="-1" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2623,20 +2727,36 @@
 			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Switch to scene &apos;Scene0&apos;" id="53" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		<ActionPart name="Show menu &apos;Intro&apos;" id="64" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="11" tableId="4" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Fabian&apos;" id="55" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="98" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		<ActionPart name="Display narration text" id="69" order="2" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="315" ActionPartAltInt="432" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="128" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Kiszon&apos;" id="57" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="101" tableId="14" LinkAny="F"/>
+		<ActionPart name="Display narration text" id="70" order="3" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="286" ActionPartAltInt="428" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="129" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="2" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Switch to scene &apos;Scene3&apos;" id="71" order="4" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="42" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display text by character &apos;Piotrex&apos;" id="78" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="135" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="1" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display text by character &apos;Kiszon&apos;" id="79" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="136" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Play sound &apos;F020_Eh.ogg&apos;" id="80" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="ogg/F020_Eh.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="100" versionedId="-1" tableId="9">
+	<Animations newId="101" versionedId="-1" tableId="9">
 		<Animation name="Unnamed" id="9" order="9" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6771,7 +6891,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="100" y="644"/>
+			<AnimationCenter x="103" y="455"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -6909,7 +7029,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="101" y="709"/>
+			<AnimationCenter x="102" y="454"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -7011,7 +7131,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="101" y="668"/>
+			<AnimationCenter x="102" y="456"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -7318,7 +7438,7 @@
 			</AnimationWalkSteps>
 		</Animation>
 	</Animations>
-	<Conditions newId="4" versionedId="-1" tableId="10">
+	<Conditions newId="5" versionedId="-1" tableId="10">
 		<Condition name="Marchewka_CONDITION" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="T" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
 			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7336,11 +7456,11 @@
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Condition>
 	</Conditions>
-	<Dialogs newId="0" versionedId="-1" tableId="11">
+	<Dialogs newId="1" versionedId="-1" tableId="11">
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="44" versionedId="-1" tableId="13">
+	<Sprites newId="48" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -7516,394 +7636,444 @@
 				<position x="810" y="394"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="44" order="44" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Anim/Fabian/rozmowa/closer/front_left/2.png" Transparency="-1">
+				<position x="966" y="249"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="45" order="45" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="46" order="46" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="47" order="47" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="graphics/20170509/E3_przysl.png" Transparency="-1">
+				<position x="618" y="437"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="103" versionedId="-1" tableId="14">
-		<Text name="Unnamed" id="1" order="0" lastModified="-1">
+	<Texts newId="138" versionedId="-1" tableId="14">
+		<Text name="Id: 1 - : Targ_front" id="1" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Targ_front" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="2" order="2" lastModified="-1">
+		<Text name="Id: 2 - : MENU" id="2" order="2" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="3" order="3" lastModified="-1">
+		<Text name="Id: 3 - : Targ_lewo" id="3" order="3" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="4" order="4" lastModified="-1">
+		<Text name="Id: 4 - : Targ_prawo" id="4" order="4" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="5" order="5" lastModified="-1">
+		<Text name="Id: 5 - : Fabian" id="5" order="5" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="6" order="6" lastModified="-1">
+		<Text name="Id: 6 - MOUSE: LOOK" id="6" order="6" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="7" order="7" lastModified="-1">
+		<Text name="Id: 7 - MOUSE: LOOK" id="7" order="7" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="8" order="8" lastModified="-1">
+		<Text name="Id: 8 - MOUSE: TAKE" id="8" order="8" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="9" order="9" lastModified="-1">
+		<Text name="Id: 9 - MOUSE: TAKE" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="10" order="10" lastModified="-1">
+		<Text name="Id: 10 - MOUSE: WALK" id="10" order="10" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="11" order="11" lastModified="-1">
+		<Text name="Id: 11 - MOUSE: WALK" id="11" order="11" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="12" order="12" lastModified="-1">
+		<Text name="Id: 12 - Targ_front: START" id="12" order="12" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="14" order="14" lastModified="-1">
+		<Text name="Id: 14 - Targ_front: KISZON" id="14" order="14" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="KISZON" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="15" order="15" lastModified="-1">
+		<Text name="Id: 15 - Targ_front: KISZON: &apos;LOOK&apos; executed" id="15" order="15" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="To jest sklep Kiszona&lt;p4&gt;&lt;br/&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="18" order="18" lastModified="-1">
+		<Text name="Id: 18 - Targ_front: WIATREX" id="18" order="18" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="WIATREX" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="19" order="19" lastModified="-1">
+		<Text name="Id: 19 - Targ_front: WIATREX: &apos;LOOK&apos; executed" id="19" order="19" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="To jest siedziba WIATREX&lt;p4&gt;&lt;br/&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="21" order="21" lastModified="-1">
+		<Text name="Id: 21 - Targ_prawo: START" id="21" order="21" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="22" order="22" lastModified="-1">
+		<Text name="Id: 22 - Targ_prawo: PrzejscieDoFront" id="22" order="22" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="23" order="23" lastModified="-1">
+		<Text name="Id: 23 - Targ_prawo: PrzejscieDoFront: &apos;LOOK&apos; executed" id="23" order="23" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Powrót do widoku z przodu&lt;p4&gt;&lt;br/&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="25" order="25" lastModified="-1">
+		<Text name="Id: 25 - Targ_lewo: START" id="25" order="25" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="26" order="26" lastModified="-1">
+		<Text name="Id: 26 - Targ_lewo: PrzejscieDoFrontu" id="26" order="26" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="27" order="27" lastModified="-1">
+		<Text name="Id: 27 - Targ_lewo: PrzejscieDoFrontu: &apos;LOOK&apos; executed" id="27" order="27" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Przejscie do widoku z frontu&lt;p4&gt;&lt;br/&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="29" order="29" lastModified="-1">
+		<Text name="Id: 29 - Targ_lewo: Przejście do Wiatrex" id="29" order="29" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="30" order="30" lastModified="-1">
+		<Text name="Id: 30 - Targ_lewo: Przejście do Wiatrex: &apos;LOOK&apos; executed" id="30" order="30" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Przejscie do WIATREX&lt;p4&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="32" order="32" lastModified="-1">
+		<Text name="Id: 32 - Targ_prawo: PrzejscieDoKiszon" id="32" order="32" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="33" order="33" lastModified="-1">
+		<Text name="Id: 33 - Targ_prawo: PrzejscieDoKiszon: &apos;LOOK&apos; executed" id="33" order="33" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Przejscie do KISZON&lt;p4&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="34" order="34" lastModified="-1">
+		<Text name="Id: 34 - Targ_lewo: lodowka" id="34" order="34" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="35" order="35" lastModified="-1">
+		<Text name="Id: 35 - Targ_lewo: DonKiszon" id="35" order="35" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="36" order="36" lastModified="-1">
+		<Text name="Id: 36 - Targ_lewo: osiol" id="36" order="36" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="37" order="37" lastModified="-1">
+		<Text name="Id: 37 - Targ_lewo: lancuch" id="37" order="37" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="38" order="38" lastModified="-1">
+		<Text name="Id: 38 - Targ_lewo: malyWiatrak" id="38" order="38" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="39" order="39" lastModified="-1">
+		<Text name="Id: 39 - Targ_lewo: rower" id="39" order="39" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="41" order="41" lastModified="-1">
+		<Text name="Id: 41 - Targ_lewo: Piotrex" id="41" order="41" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="42" order="42" lastModified="-1">
+		<Text name="Id: 42 - DonKiszon" id="42" order="42" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="43" order="43" lastModified="-1">
+		<Text name="Id: 43 - INVENTORY_OFF: INVENTORY_ON_BUTTON" id="43" order="43" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="44" order="44" lastModified="-1">
+		<Text name="Id: 44 - INVENTORY_OFF: INVENTORY_ON_BUTTON" id="44" order="44" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="45" order="45" lastModified="-1">
+		<Text name="Id: 45 - INVENTORY_ON: ITEM HOLDERS_1" id="45" order="45" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="46" order="46" lastModified="-1">
+		<Text name="Id: 46 - INVENTORY_ON: ITEM HOLDERS_1" id="46" order="46" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="47" order="47" lastModified="-1">
+		<Text name="Id: 47 - INVENTORY_ON: ITEM HOLDERS_2" id="47" order="47" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="48" order="48" lastModified="-1">
+		<Text name="Id: 48 - INVENTORY_ON: ITEM HOLDERS_2" id="48" order="48" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="49" order="49" lastModified="-1">
+		<Text name="Id: 49 - INVENTORY_ON: ITEM HOLDERS_3" id="49" order="49" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="50" order="50" lastModified="-1">
+		<Text name="Id: 50 - INVENTORY_ON: ITEM HOLDERS_3" id="50" order="50" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="51" order="51" lastModified="-1">
+		<Text name="Id: 51 - INVENTORY_ON: ITEM HOLDERS_4" id="51" order="51" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="52" order="52" lastModified="-1">
+		<Text name="Id: 52 - INVENTORY_ON: ITEM HOLDERS_4" id="52" order="52" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="53" order="53" lastModified="-1">
+		<Text name="Id: 53 - INVENTORY_ON: ITEM HOLDERS_5" id="53" order="53" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="54" order="54" lastModified="-1">
+		<Text name="Id: 54 - INVENTORY_ON: ITEM HOLDERS_5" id="54" order="54" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="55" order="55" lastModified="-1">
+		<Text name="Id: 55 - Marchewka" id="55" order="55" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="56" order="56" lastModified="-1">
+		<Text name="Id: 56 - Targ_lewo: Marchewka" id="56" order="56" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="57" order="57" lastModified="-1">
+		<Text name="Id: 57 - Targ_lewo: Marchewka: &apos;TAKE&apos; executed" id="57" order="57" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Fajna marchewa, pogadaj ze mna.&lt;p2&gt;&lt;br/&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="58" order="58" lastModified="-1">
+		<Text name="Id: 58 - Targ_lewo: Marchewka: &apos;LOOK&apos; executed" id="58" order="58" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Osly lubia marchewki&lt;p2&gt;&lt;br/&gt;Czy widzisz jakiegos osla?&lt;p2&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="59" order="56" lastModified="-1">
+		<Text name="Id: 59 - Targ_prawo: Marchewka1" id="59" order="56" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="60" order="57" lastModified="-1">
+		<Text name="Id: 60 - Targ_prawo: Marchewka1: &apos;TAKE&apos; executed" id="60" order="57" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Fajna marchewa, pogadaj ze mna.&lt;p2&gt;&lt;br/&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="61" order="58" lastModified="-1">
+		<Text name="Id: 61 - Targ_prawo: Marchewka1: &apos;LOOK&apos; executed" id="61" order="58" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Osly lubia marchewki&lt;p2&gt;&lt;br/&gt;Czy widzisz jakiegos osla?&lt;p2&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="62" order="62" lastModified="-1">
+		<Text name="Id: 62 - : Piotrex" id="62" order="62" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="NPC-Piotrex" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="63" order="63" lastModified="-1">
+		<Text name="Id: 63 - : Scene1" id="63" order="63" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="64" order="64" lastModified="-1">
+		<Text name="Id: 64 - : Scene2" id="64" order="64" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="65" order="65" lastModified="-1">
+		<Text name="Id: 65 - : Scene3" id="65" order="65" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="66" order="66" lastModified="-1">
+		<Text name="Id: 66 - Scene1: GO_Scene1" id="66" order="66" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="68" order="68" lastModified="-1">
+		<Text name="Id: 68 - Scene2: GO_Scene2" id="68" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="69" order="69" lastModified="-1">
+		<Text name="Id: 69 - Scene2: GO_Scene3" id="69" order="69" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="70" order="70" lastModified="-1">
+		<Text name="Id: 70 - Scene3: GO_Scene2" id="70" order="70" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="72" order="72" lastModified="-1">
+		<Text name="Id: 72 - MENU: btn_wyjscie_n" id="72" order="72" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="78" order="72" lastModified="-1">
+		<Text name="Id: 78 - MENU: btn_wyjscie_o" id="78" order="72" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="82" order="72" lastModified="-1">
+		<Text name="Id: 82 - MENU: btn_start_n" id="82" order="72" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="83" order="72" lastModified="-1">
+		<Text name="Id: 83 - MENU: btn_start_o" id="83" order="72" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="84" order="84" lastModified="-1">
+		<Text name="Id: 86 - : OUTRO" id="86" order="86" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="85" order="85" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="86" order="86" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="88" order="88" lastModified="-1">
+		<Text name="Id: 88 - Scene1: NPC_Piotrex" id="88" order="88" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="NPC-Piotrex" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="89" order="89" lastModified="-1">
+		<Text name="Id: 89 - Scene1: Rower3" id="89" order="89" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="90" order="90" lastModified="-1">
+		<Text name="Id: 90 - Scene1: Rower2" id="90" order="90" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="92" order="90" lastModified="-1">
+		<Text name="Id: 92 - Scene1: Rower1" id="92" order="90" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="93" order="93" lastModified="-1">
+		<Text name="Id: 93 - Scene3: GO_START" id="93" order="93" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="95" order="62" lastModified="-1">
+		<Text name="Id: 95 - : Kiszon" id="95" order="62" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="NPC-Kiszon" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="96" order="96" lastModified="-1">
+		<Text name="Id: 96 - Scene3: NPC_Kiszon" id="96" order="96" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="98" order="98" lastModified="-1">
+		<Text name="Id: 102 - : Osiol" id="102" order="102" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Dzień dobry, jestem Fabian &lt;br/&gt;Emanuel Ripperson, &lt;br/&gt;przybywam z bardzo daleka. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;" path="ogg/F001.ogg" int="0"/>
+				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="101" order="101" lastModified="-1">
+		<Text name="Id: 111 - : Intro" id="111" order="111" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Oh, klient, jak miło! &lt;br/&gt;Tak, to ja! &lt;br/&gt;W czym mogę szanownemu &lt;br/&gt;Panu pomóc?" path="ogg/D001.ogg" int="0"/>
+				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="102" order="102" lastModified="-1">
+		<Text name="Id: 114 - Intro: Object0" id="114" order="114" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="123" order="123" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="124" order="124" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="128" order="128" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Oh, klient, jak miło! Tak, to ja! &lt;br/&gt;W czym mogę szanownemu Panu pomóc?" path="ogg/D001.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="129" order="129" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Pierwszej klasy kiszonki, jak mniemam! &lt;br/&gt;Mamy wszystko: ogórki, kapustę, buraki, cebulę, &lt;br/&gt;śledzie, jaja, czego tylko dusza zapragnie.&lt;br/&gt;Jak to u nas mówią, kup kiszonkę, zapłać, do widzenia. " path="ogg/D002.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="134" order="134" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="135" order="130" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="yiutgkjmhnf" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="136" order="131" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="tfjdjygdshjd" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="137" order="137" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8066,7 +8236,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="1" versionedId="-1" tableId="28">
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="6" versionedId="-1" tableId="29">
 		<WaySystem name="Way system0" id="0" order="0" lastModified="-1">
@@ -8172,6 +8342,11 @@
 				<point x="1278" y="515"/>
 				<point x="876" y="498"/>
 				<point x="862" y="520"/>
+				<point x="-10000" y="-10000"/>
+				<point x="651" y="445"/>
+				<point x="671" y="515"/>
+				<point x="752" y="515"/>
+				<point x="752" y="448"/>
 			</WaySystemBorder>
 			<WaySystemPoints>
 				<Link parentLink="T" id="32" tableId="5" LinkAny="F"/>
