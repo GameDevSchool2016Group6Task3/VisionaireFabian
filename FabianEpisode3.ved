@@ -8,6 +8,7 @@
 			<Link parentLink="T" id="7" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="9" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="11" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="12" tableId="4" LinkAny="F"/>
 		</GameSceneLinks>
 		<GameCharacterLinks>
 			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
@@ -58,6 +59,8 @@
 			<Link parentLink="T" id="0" tableId="23" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="23" LinkAny="F"/>
 			<Link parentLink="T" id="2" tableId="23" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="23" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="23" LinkAny="F"/>
 		</GameParticleContainerLinks>
 		<GameLeftClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -908,7 +911,7 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="12" versionedId="-1" tableId="4">
+	<Scenes newId="13" versionedId="-1" tableId="4">
 		<Scene name="MENU" id="2" order="7" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/MainMenu.jpg" Transparency="-1">
 				<position x="0" y="0"/>
@@ -990,6 +993,11 @@
 				<Link parentLink="T" id="65" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="66" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="68" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="69" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="70" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="71" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="72" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="73" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1028,6 +1036,7 @@
 				<Link parentLink="T" id="54" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="57" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="63" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="74" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1050,12 +1059,13 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="OUTRO" id="9" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="OUTRO" id="9" order="11" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="graphics/outro.jpg" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="86" tableId="14" LinkAny="F"/>
 			<SceneObjects>
+				<Link parentLink="T" id="76" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1082,6 +1092,32 @@
 			<SceneName parentLink="T" id="111" tableId="14" LinkAny="F"/>
 			<SceneObjects>
 				<Link parentLink="T" id="44" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="2" tableId="15" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+		</Scene>
+		<Scene name="wloszczyzna" id="12" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="graphics/wloszczyzna.jpg" Transparency="-1">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="286" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="75" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="2" tableId="15" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1130,7 +1166,7 @@
 			</PointRelations>
 		</Point>
 		<Point name="Point1" id="27" order="1" lastModified="-1" PointSize="-1">
-			<PointPosition x="600" y="515"/>
+			<PointPosition x="596" y="560"/>
 			<PointRelations>
 				<Link parentLink="F" id="26" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="28" tableId="5" LinkAny="F"/>
@@ -1138,7 +1174,7 @@
 			</PointRelations>
 		</Point>
 		<Point name="Point2" id="28" order="2" lastModified="-1" PointSize="40">
-			<PointPosition x="767" y="526"/>
+			<PointPosition x="789" y="544"/>
 			<PointRelations>
 				<Link parentLink="F" id="27" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="29" tableId="5" LinkAny="F"/>
@@ -1203,7 +1239,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="69" versionedId="-1" tableId="6">
+	<Objects newId="77" versionedId="-1" tableId="6">
 		<Object name="DonKiszon" id="17" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="T" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="42" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -1471,7 +1507,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Rower3" id="38" order="7" lastModified="-1" ObjectDirection="-1" ObjectCenter="580" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Rower3" id="38" order="7" lastModified="-1" ObjectDirection="-1" ObjectCenter="580" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="89" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1491,7 +1527,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Rower2" id="39" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="580" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Rower2" id="39" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="580" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="90" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1673,8 +1709,6 @@
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
-				<Link parentLink="T" id="52" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="53" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="54" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
@@ -1793,6 +1827,7 @@
 			<ObjectActions>
 				<Link parentLink="T" id="63" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="64" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="83" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2080,7 +2115,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="kolek" id="64" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="500" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="kolek" id="64" order="8" lastModified="-1" ObjectDirection="-1" ObjectCenter="496" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="256" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2100,11 +2135,11 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="kolek i lancuch" id="65" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="500" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="kolek i lancuch" id="65" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="496" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="257" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="18" tableId="10" LinkAny="F"/>
+			<ObjectCondition parentLink="F" id="24" tableId="10" LinkAny="F"/>
 			<ObjectSprite parentLink="T" id="60" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
@@ -2120,16 +2155,16 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="item_lancuch" id="66" order="7" lastModified="-1" ObjectDirection="135" ObjectCenter="499" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="item_lancuch" id="66" order="7" lastModified="-1" ObjectDirection="135" ObjectCenter="482" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="258" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="609" y="460"/>
-				<point x="590" y="479"/>
-				<point x="599" y="497"/>
-				<point x="629" y="497"/>
-				<point x="647" y="483"/>
-				<point x="641" y="467"/>
-				<point x="626" y="460"/>
+				<point x="563" y="445"/>
+				<point x="547" y="460"/>
+				<point x="564" y="479"/>
+				<point x="591" y="476"/>
+				<point x="602" y="463"/>
+				<point x="598" y="454"/>
+				<point x="584" y="447"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="19" tableId="10" LinkAny="F"/>
 			<ObjectSprite parentLink="T" id="61" tableId="13" LinkAny="F"/>
@@ -2172,7 +2207,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="lodowka" id="68" order="8" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="lodowka" id="68" order="9" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="264" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="776" y="332"/>
@@ -2199,8 +2234,188 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
+		<Object name="Rower1" id="69" order="10" lastModified="-1" ObjectDirection="-1" ObjectCenter="559" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="267" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="22" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="63" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="22" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="23" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="24" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+				<Link parentLink="T" id="3" tableId="20" LinkAny="F"/>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Rower2" id="70" order="11" lastModified="-1" ObjectDirection="-1" ObjectCenter="559" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="268" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="23" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="64" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Rower3" id="71" order="12" lastModified="-1" ObjectDirection="-1" ObjectCenter="567" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="269" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="24" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="65" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="4" tableId="23" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="rowerAkcje" id="72" order="13" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="270" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="549" y="530"/>
+				<point x="544" y="484"/>
+				<point x="508" y="403"/>
+				<point x="366" y="402"/>
+				<point x="360" y="449"/>
+				<point x="323" y="458"/>
+				<point x="295" y="494"/>
+				<point x="305" y="538"/>
+				<point x="341" y="553"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="80" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="81" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="376" y="590"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="uszkodzenie1" id="73" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="485" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="282" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="24" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="66" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="3" tableId="23" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="uszkodzenie1" id="74" order="12" lastModified="-1" ObjectDirection="-1" ObjectCenter="521" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="285" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="24" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="67" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="1" tableId="23" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Object0" id="75" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="722" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="287" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="0" y="1"/>
+				<point x="1279" y="1"/>
+				<point x="1267" y="726"/>
+				<point x="0" y="725"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="68" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="82" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Object0" id="76" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="290" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
 	</Objects>
-	<Actions newId="78" versionedId="-1" tableId="7">
+	<Actions newId="84" versionedId="-1" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2315,8 +2530,13 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="69" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="70" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="71" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="276" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="277" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="278" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="279" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="280" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="281" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;LOOK&apos; executed" id="49" order="0" lastModified="-1" ActionExecutionType="6">
@@ -2362,20 +2582,6 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="85" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="Cursor enters object area" id="52" order="1" lastModified="-1" ActionExecutionType="1">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="98" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="Cursor leaves object area" id="53" order="2" lastModified="-1" ActionExecutionType="2">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="99" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;LOOK&apos; executed" id="54" order="0" lastModified="-1" ActionExecutionType="6">
@@ -2568,8 +2774,6 @@
 				<Link parentLink="T" id="217" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="218" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="219" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="221" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="222" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="225" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
@@ -2616,8 +2820,53 @@
 				<Link parentLink="T" id="238" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="&apos;Wiatrak&apos; dropped" id="80" order="0" lastModified="-1" ActionExecutionType="3">
+			<ActionFixture parentLink="F" id="59" tableId="6" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="249" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="250" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="251" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="252" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="253" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="254" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;Lancuch&apos; dropped" id="81" order="1" lastModified="-1" ActionExecutionType="3">
+			<ActionFixture parentLink="F" id="67" tableId="6" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="258" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="259" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="260" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="261" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="262" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="263" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="265" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="267" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="268" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="82" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="269" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="271" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="275" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;Klucz&apos; dropped" id="83" order="2" lastModified="-1" ActionExecutionType="3">
+			<ActionFixture parentLink="F" id="53" tableId="6" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="272" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="273" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="274" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="239" versionedId="-1" tableId="8">
+	<ActionParts newId="282" versionedId="-1" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2686,15 +2935,11 @@
 			<ActionPartLink parentLink="F" id="11" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display narration text" id="69" order="2" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="315" ActionPartAltInt="432" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display narration text" id="69" order="2" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="30" ActionPartAltInt="30" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="128" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display narration text" id="70" order="3" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="286" ActionPartAltInt="428" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="129" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="2" tableId="3" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Switch to scene &apos;Scene3&apos;" id="71" order="4" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Switch to scene &apos;Scene3&apos;" id="71" order="10" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="42" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -2769,14 +3014,6 @@
 		<ActionPart name="Display text by character &apos;Fabian&apos;" id="97" order="19" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="154" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Set command &apos;LOOK&apos;" id="98" order="0" lastModified="-1" ActionPartCommand="45" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="0" tableId="2" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Set standard command" id="99" order="0" lastModified="-1" ActionPartCommand="45" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Display text by character &apos;Fabian&apos;" id="100" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="156" tableId="14" LinkAny="F"/>
@@ -3174,14 +3411,6 @@
 			<ActionPartLink parentLink="F" id="102" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition &apos;KiszonWSklepie&apos; to false" id="221" order="7" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="4" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Display narration text" id="222" order="9" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="230" ActionPartAltInt="40" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="255" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="2" tableId="3" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Add item &apos;Lancuch&apos; to character &apos;Fabian&apos;" id="223" order="0" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="67" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
@@ -3246,8 +3475,116 @@
 			<ActionPartLink parentLink="F" id="21" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Change condition &apos;rower_wiatrak&apos; to true" id="249" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="23" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition &apos;rower&apos; to false" id="250" order="2" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="22" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Value &apos;statusRoweru&apos; = 2" id="251" order="3" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;statusRoweru&apos; = 1" id="252" order="0" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="253" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Remove item &apos;Wiatrak&apos; from character &apos;Current character&apos;" id="254" order="4" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="59" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;statusRoweru&apos; = 2" id="258" order="0" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition &apos;rower_wiatrak&apos; to false" id="259" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="23" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition &apos;rower_wiatrak_lancuch&apos; to true" id="260" order="2" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="24" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display narration text" id="261" order="4" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="230" ActionPartAltInt="40" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="278" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="2" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition &apos;KiszonWSklepie&apos; to false" id="262" order="5" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition &apos;widoczne_uszkodzenie&apos; is true" id="263" order="3" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="18" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Value &apos;statusRoweru&apos; = 3" id="265" order="6" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display text by character &apos;Current character&apos;" id="267" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="283" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition &apos;widoczne_uszkodzenie&apos; to false" id="268" order="8" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="18" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display narration text" id="269" order="2" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="21" ActionPartAltInt="536" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="288" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Switch to scene &apos;OUTRO&apos;" id="271" order="5" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="76" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display text by character &apos;Fabian&apos;" id="272" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="291" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show menu &apos;wloszczyzna&apos;" id="273" order="2" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="12" tableId="4" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 1 second" id="274" order="1" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 1 second" id="275" order="4" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display narration text" id="276" order="4" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="30" ActionPartAltInt="30" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="294" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display narration text" id="277" order="5" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="30" ActionPartAltInt="30" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="295" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display narration text" id="278" order="6" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="30" ActionPartAltInt="30" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="296" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display narration text" id="279" order="7" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="30" ActionPartAltInt="30" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="297" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display narration text" id="280" order="8" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="30" ActionPartAltInt="30" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="298" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display narration text" id="281" order="9" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="30" ActionPartAltInt="30" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="299" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="113" versionedId="-1" tableId="9">
+	<Animations newId="114" versionedId="-1" tableId="9">
 		<Animation name="Unnamed" id="9" order="9" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -8109,7 +8446,7 @@
 			</AnimationWalkSteps>
 		</Animation>
 	</Animations>
-	<Conditions newId="22" versionedId="-1" tableId="10">
+	<Conditions newId="27" versionedId="-1" tableId="10">
 		<Condition name="con_start" id="2" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
 			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -8182,12 +8519,24 @@
 			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Condition>
+		<Condition name="rower" id="22" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="T" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
+			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Condition>
+		<Condition name="rower_wiatrak" id="23" order="1" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
+			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Condition>
+		<Condition name="rower_wiatrak_lancuch" id="24" order="2" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
+			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Condition>
 	</Conditions>
 	<Dialogs newId="0" versionedId="-1" tableId="11">
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="63" versionedId="-1" tableId="13">
+	<Sprites newId="69" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -8390,17 +8739,17 @@
 		</Sprite>
 		<Sprite name="Image" id="59" order="59" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="graphics/20170509/kolek.png" Transparency="-1">
-				<position x="560" y="394"/>
+				<position x="560" y="390"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="60" order="60" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="graphics/20170509/lancuch-z-oslem.png" Transparency="-1">
-				<position x="560" y="394"/>
+				<position x="560" y="390"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="61" order="61" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="graphics/20170509/lancuch.png" Transparency="-1">
-				<position x="593" y="459"/>
+				<position x="551" y="442"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="62" order="62" lastModified="-1">
@@ -8408,8 +8757,38 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="63" order="63" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="graphics/20170509/K2_R1.png" Transparency="-1">
+				<position x="264" y="398"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="64" order="64" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="graphics/20170509/K2_R2.png" Transparency="-1">
+				<position x="264" y="398"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="65" order="65" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="graphics/20170509/K2_R3.png" Transparency="-1">
+				<position x="295" y="398"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="66" order="57" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="graphics/20170509/uszkodzona_lodowka.png" Transparency="-1">
+				<position x="765" y="348"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="67" order="58" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="graphics/20170509/uszkodzona_lodowka3.png" Transparency="-1">
+				<position x="122" y="369"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="68" order="44" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Anim/Fabian/rozmowa/closer/front_left/2.png" Transparency="-1">
+				<position x="902" y="242"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="267" versionedId="-1" tableId="14">
+	<Texts newId="300" versionedId="-1" tableId="14">
 		<Text name="Id: 2 - : MENU" id="2" order="2" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -8635,404 +9014,489 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="128" order="128" lastModified="-1">
+		<Text name="Id: 128 - Intro: Object0: Cursor enters object area" id="128" order="128" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Oh, klient, jak miło! Tak, to ja! &lt;br/&gt;W czym mogę szanownemu Panu pomóc?" path="ogg/D001.ogg" int="0"/>
+				<text Text="Dawno, dawno temu, nie tak daleko stąd, Fabianowi wszystko poszło podejrzanie łatwo. &lt;br/&gt;No bo nie oszukujmy się, wiedźma nie była taka straszna, przepis mógł być lewy, a składniki &lt;br/&gt;co najmniej wyssane z palca, żeby nie powiedzieć gorzej. A tutaj o, proszę, włoszczyzna, ogórki,&lt;br/&gt; śmietana i to wszystko. W Lechistanie na pewno wszystkiego jest pod dostatkiem. &lt;br/&gt;Mówią w końcu ‘Lechia - kraina ogórkami i śmietaną płynąca’. &lt;br/&gt;" path="ogg1/narrator1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="129" order="129" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Pierwszej klasy kiszonki, jak mniemam! &lt;br/&gt;Mamy wszystko: ogórki, kapustę, buraki, cebulę, &lt;br/&gt;śledzie, jaja, czego tylko dusza zapragnie.&lt;br/&gt;Jak to u nas mówią, kup kiszonkę, zapłać, do widzenia. " path="ogg/D002.ogg" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="134" order="134" lastModified="-1">
+		<Text name="Id: 134 - Scene3: dialog_Kiszon" id="134" order="134" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="135" order="130" lastModified="-1">
+		<Text name="Id: 135 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="135" order="130" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Dzień dobry, jestem &lt;br/&gt;Fabian Emanuel Ripperson, &lt;br/&gt;przybywam z bardzo daleka. &lt;br/&gt;Czy mam przyjemność ze słynnym &lt;br/&gt;Don Kiszonem?" path="ogg1/dialog14.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="136" order="131" lastModified="-1">
+		<Text name="Id: 136 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="136" order="131" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Oh, klient, jak miło! Tak, to ja! &lt;br/&gt;W czym mogę szanownemu &lt;br/&gt;Panu pomóc?&lt;br/&gt;" path="ogg1/dialog15.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="137" order="137" lastModified="-1">
+		<Text name="Id: 137 - Scene3: przysloniecie" id="137" order="137" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="138" order="138" lastModified="-1">
+		<Text name="Id: 138 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="138" order="138" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Tak, rzeczywiście miło! &lt;br/&gt;Bo widzi Pan przyjechałem &lt;br/&gt;tutaj do was, bo potrzeba mi…" path="ogg1/dialog16.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="139" order="139" lastModified="-1">
+		<Text name="Id: 139 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="139" order="139" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Pierwszej klasy kiszonki, jak mniemam! Mamy wszystko: &lt;br/&gt;ogórki, kapustę, buraki, cebulę, śledzie, jaja, czego tylko &lt;br/&gt;dusza zapragnie. Jak to u nas mówią, kup kiszonkę, &lt;br/&gt;zapłać, do widzenia. " path="ogg1/dialog17.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="140" order="140" lastModified="-1">
+		<Text name="Id: 140 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="140" order="140" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Urocze, ale przybyłem tu nie po kiszonkę, a…" path="ogg1/dialog18.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="143" order="143" lastModified="-1">
+		<Text name="Id: 143 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="143" order="143" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="A więc to tak! Jesteś jednym z NICH, podłe bydlęta, co by tylko żyły i żarły. &lt;br/&gt;Zero poszanowania dla sztuki kwasiarskiej. Człowiek sobie żyły wypruwa, &lt;br/&gt;ręce po łokcie w occie wymacza, a tym tylko jedno w głowie!" path="ogg1/dialog19.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="144" order="144" lastModified="-1">
+		<Text name="Id: 144 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="144" order="144" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="…włoszczyznę." path="ogg1/dialog20.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="145" order="145" lastModified="-1">
+		<Text name="Id: 145 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="145" order="145" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Tego się właśnie po obcym można było spodziewać. Tak, właśnie tak! &lt;br/&gt;Włoszczyzny Ci się zachciało, co, szelmo? Mogłem się tego domyślić, &lt;br/&gt;z oczu ci źle patrzy, a i ten kałdun mógł mnie ostrzec przed niemal pewną &lt;br/&gt;twoją skłonnością do obżarstwa. &lt;br/&gt;Od razu widać, że żaden z ciebie koneser i typ niezdolny, żeby docenić mą sztukę. &lt;br/&gt;Czego bym nie robił, to całe życie, niczym smród za trupem, ciągnie się za mną &lt;br/&gt;rodzinna klątwa.&lt;br/&gt;" path="ogg1/dialog21.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="147" order="147" lastModified="-1">
+		<Text name="Id: 147 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="147" order="147" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Czyli nie sprzeda mi Pan?" path="ogg1/dialog22.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="148" order="148" lastModified="-1">
+		<Text name="Id: 148 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="148" order="148" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Czy sprzedam? Masz czelność pytać, czy sprzedam?" path="ogg1/dialog23.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="149" order="149" lastModified="-1">
+		<Text name="Id: 149 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="149" order="149" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Czyli Pan nie ma tej włoszczyzny? Bo jak, nie, &lt;br/&gt;to ja po prostu pójdę gdzie indziej." path="ogg1/dialog24.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="150" order="150" lastModified="-1">
+		<Text name="Id: 150 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="150" order="150" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Oczywiście, że mam, ty zamorski imbecylu. &lt;br/&gt;Pięć lechickich pesos i wynoś się stąd!" path="ogg1/dialog25.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="151" order="151" lastModified="-1">
+		<Text name="Id: 151 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="151" order="151" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Jakby nie można tak było od razu." path="ogg1/dialog26.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="152" order="152" lastModified="-1">
+		<Text name="Id: 152 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="152" order="152" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Czekaj, zaraz… O nie! Ci bandyci zabrali mój portfel!" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="153" order="153" lastModified="-1">
+		<Text name="Id: 153 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="153" order="153" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ha, biedaku! Zejdź mi z oczu i nie pokazuj się więcej. &lt;br/&gt;No chyba, że z pieniędzmi, ale i wtedy nie zostawaj na długo." path="ogg1/dialog27.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="154" order="154" lastModified="-1">
+		<Text name="Id: 154 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="154" order="154" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Co za gbur. Lechici coś nie są skorzy ułatwić mi zadania. &lt;br/&gt;Od tamtych łotrów portfela raczej nie odzyskam, czyli kupno &lt;br/&gt;włoszczyzny odpada. W takim razie trzeba będzie ją zdobyć inaczej." path="ogg1/dialog28.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="155" order="155" lastModified="-1">
+		<Text name="Id: 155 - Scene3: dialog_przybudowka" id="155" order="155" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="156" order="156" lastModified="-1">
+		<Text name="Id: 156 - Scene3: dialog_przybudowka: &apos;LOOK&apos; executed" id="156" order="156" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="To musi być magazyn Don Kiszona. Pewnie tam trzyma zapasy &lt;br/&gt;kiszonki i, no tak, właśnie! Inne warzywa! Tylko jak się tam dostać. Hm…" path="ogg1/dialog29.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="158" order="158" lastModified="-1">
+		<Text name="Id: 158 - Scene3: Klucz" id="158" order="158" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="159" order="157" lastModified="-1">
+		<Text name="Id: 159 - Scene3: Klucz: &apos;LOOK&apos; executed" id="159" order="157" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ten ogromny klucz na ścianie musi otwierać coś ważnego. Może magazyn? &lt;br/&gt;Trzeba będzie jakoś wykurzyć jegomościa ze sklepu." path="ogg1/dialog30.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="163" order="163" lastModified="-1">
+		<Text name="Id: 163 - Scene3: Klucz: &apos;TAKE&apos; executed" id="163" order="163" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="gdzie z tymi łapami !!!" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="165" order="165" lastModified="-1">
+		<Text name="Id: 165 - Scene3: GO_wyjscie_prawe" id="165" order="165" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="166" order="166" lastModified="-1">
+		<Text name="Id: 166 - Scene3: GO_wyjscie_prawe: &apos;WALK&apos; executed" id="166" order="166" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nie mogę odjechać bez włoszczyzny." path="ogg1/brzeg mapy1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="167" order="167" lastModified="-1">
+		<Text name="Id: 167 - Scene3: GO_wyjscie_prawe: &apos;WALK&apos; executed" id="167" order="167" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Przed wyruszeniem w drogę, należy zdobyć włoszczyznę." path="ogg1/brzeg mapy2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="168" order="165" lastModified="-1">
+		<Text name="Id: 168 - Scene1: GO_wyjscie_lewe" id="168" order="165" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="169" order="166" lastModified="-1">
+		<Text name="Id: 169 - Scene1: GO_wyjscie_lewe: &apos;WALK&apos; executed" id="169" order="166" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nie mogę odjechać bez włoszczyzny." path="ogg1/brzeg mapy1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="170" order="167" lastModified="-1">
+		<Text name="Id: 170 - Scene1: GO_wyjscie_lewe: &apos;WALK&apos; executed" id="170" order="167" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Przed wyruszeniem w drogę, należy zdobyć włoszczyznę." path="ogg1/brzeg mapy2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="171" order="171" lastModified="-1">
+		<Text name="Id: 171 - Scene3: drzwi" id="171" order="171" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="176" order="176" lastModified="-1">
+		<Text name="Id: 176 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="176" order="176" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Przeklęty kraj, przeklęte miasto, przeklęty chłód. Nie znoszę zimna! &lt;br/&gt;Lechici nawet wiosny nie potrafią zrobić dobrze. Wytrzymać się nie da. &lt;br/&gt;Jeszcze ten łobuz z Wiatrexu i, szlag by je trafił, jego wiatraki! Przez nie wciąż są przeciągi!" path="ogg1/dialog31.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="178" order="178" lastModified="-1">
+		<Text name="Id: 178 - Scene3: dialog_Kiszon: &apos;LOOK&apos; executed" id="178" order="178" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Brr… Nie wytrzymam. Zaraz zdmuchnie mi głowę." path="ogg1/dialog32.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="181" order="157" lastModified="-1">
+		<Text name="Id: 181 - Scene3: drzwi: &apos;LOOK&apos; executed" id="181" order="157" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="To za nimi Don Kiszon musi trzymać wszystkie swoje zapasy. " path="ogg1/Drzwi1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="182" order="160" lastModified="-1">
+		<Text name="Id: 182 - Scene3: drzwi: &apos;TAKE&apos; executed" id="182" order="160" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Zabieramy do inventory&lt;br/&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="183" order="163" lastModified="-1">
+		<Text name="Id: 183 - Scene3: drzwi: &apos;TAKE&apos; executed" id="183" order="163" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Sezamie otwórz się! Przyjacielu?! Eh, zwykłe bzdury." path="ogg1/Drzwi2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="187" order="157" lastModified="-1">
+		<Text name="Id: 187 - Scene3: Klucz: &apos;LOOK&apos; executed" id="187" order="157" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Spory ten klucz. Musi otwierać coś ważnego. Hm…" path="ogg1/Klucz1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="188" order="157" lastModified="-1">
+		<Text name="Id: 188 - Scene3: Klucz: &apos;LOOK&apos; executed" id="188" order="157" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ciekawe gdzie by pasował..." path="ogg1/klucz2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="191" order="191" lastModified="-1">
+		<Text name="Id: 191 - Klucz" id="191" order="191" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="195" order="195" lastModified="-1">
+		<Text name="Id: 195 - Scene3: marchewka_na_skrzyni" id="195" order="195" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="197" order="157" lastModified="-1">
+		<Text name="Id: 197 - Scene3: marchewka_na_skrzyni: &apos;LOOK&apos; executed" id="197" order="157" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Wygląda na świeżą, pożywną i smaczną!" path="ogg1/marchew1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="198" order="157" lastModified="-1">
+		<Text name="Id: 198 - Scene3: marchewka_na_skrzyni: &apos;LOOK&apos; executed" id="198" order="157" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Co ja mogę więcej? No jeszcze jak nos wygląda." path="ogg1/marchew2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="201" order="201" lastModified="-1">
+		<Text name="Id: 201 - Scene3: Klucz: &apos;TAKE&apos; executed" id="201" order="201" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Jest i klucz. Trzeba sprawdzić, czy pasuje do drzwi magazynu." path="ogg1/dialog44a.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="202" order="202" lastModified="-1">
+		<Text name="Id: 202 - Scene2: S2_marchewka" id="202" order="202" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="203" order="203" lastModified="-1">
+		<Text name="Id: 203 - Scene2: NPC_Osiol_idle" id="203" order="203" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="204" order="204" lastModified="-1">
+		<Text name="Id: 204 - Scene3: NPC_Osiol_idle" id="204" order="204" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="210" order="210" lastModified="-1">
+		<Text name="Id: 210 - Scene1: ITEM_wiatrak" id="210" order="210" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="212" order="212" lastModified="-1">
+		<Text name="Id: 212 - Wiatrak" id="212" order="212" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="213" order="213" lastModified="-1">
+		<Text name="Id: 213 - Scene1: dialog_Piotrex" id="213" order="213" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="214" order="205" lastModified="-1">
+		<Text name="Id: 214 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="214" order="205" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="O, jak wspaniale, klient! Bogowie, biedaku, wyglądasz jakby ktoś cię napadł i pobił." path="ogg1/dialog36.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="215" order="206" lastModified="-1">
+		<Text name="Id: 215 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="215" order="206" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="To by się nawet zgadzało…&lt;br/&gt;" path="ogg1/dialog37.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="216" order="207" lastModified="-1">
+		<Text name="Id: 216 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="216" order="207" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ale gdzie to tak w tych stronach. Tutaj ludzie spokojni, mili, poczciwi…&lt;br/&gt;" path="ogg1/dialog38.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="217" order="208" lastModified="-1">
+		<Text name="Id: 217 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="217" order="208" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Jak baranki… na diecie z grzybków.&lt;br/&gt;" path="ogg1/dialog39.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="218" order="209" lastModified="-1">
+		<Text name="Id: 218 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="218" order="209" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Jeszcze przyjezdni będą mieli najgorsze zdanie o Lechitach, &lt;br/&gt;a tak to nie może być! Może faktycznie niebezpiecznie &lt;br/&gt;jest podróżować samotnie. Weź to." path="ogg1/dialog40.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="219" order="219" lastModified="-1">
+		<Text name="Id: 219 - Scene1: ITEM_wiatrak: &apos;LOOK&apos; executed" id="219" order="219" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="No bo wiesz. Pierwszy gratis, drugi za pół ceny. &lt;br/&gt;Lepiej dmuchać na zimne. Co nie? Hehehe…" path="ogg1/dialog40a.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="220" order="220" lastModified="-1">
+		<Text name="Id: 220 - Scene1: ITEM_wiatrak: &apos;TAKE&apos; executed" id="220" order="220" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Dziękuję. Czemu Pan tak mruga? Coś Panu wpadło?" path="ogg1/dialog41.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="221" order="221" lastModified="-1">
+		<Text name="Id: 221 - Scene1: ITEM_wiatrak: &apos;TAKE&apos; executed" id="221" order="221" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="A… mnie? Nie, nic. Zapomnij Pan.&lt;br/&gt;" path="ogg1/dialog42.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="226" order="226" lastModified="-1">
+		<Text name="Id: 226 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="226" order="226" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Wiatraki Wiatrexu, kupujcie wiatraki! Wiatraki najlepsze w mieście! &lt;br/&gt;Co ja gadam, najlepsze na świecie!" path="ogg1/dialog33.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="227" order="227" lastModified="-1">
+		<Text name="Id: 227 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="227" order="227" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Wiatraki! Pierwszy gratis, drugi dostajesz za pół ceny!" path="ogg1/dialog34.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="231" order="231" lastModified="-1">
+		<Text name="Id: 231 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="231" order="231" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Wiatrex – wieją tak, że wylądujesz na kolanach!" path="ogg1/dialog35.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="235" order="235" lastModified="-1">
+		<Text name="Id: 235 - Scene1: przysloniecie" id="235" order="235" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="236" order="236" lastModified="-1">
+		<Text name="Id: 236 - MOUSE: USE" id="236" order="236" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="237" order="237" lastModified="-1">
+		<Text name="Id: 237 - MOUSE: USE" id="237" order="237" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="239" order="239" lastModified="-1">
+		<Text name="Id: 239 - Scene2: NPC_Osiol_idle: &apos;Marchewka&apos; dropped" id="239" order="239" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Zajebista marchwka" path="ogg/F020_Eh.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="241" order="241" lastModified="-1">
+		<Text name="Id: 241 - Scene2: NPC_Osiol_idle: &apos;LOOK&apos; executed" id="241" order="241" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Biedactwo! Stoi uwiązany, a nawet stąd słyszę &lt;br/&gt;jak bardzo burczy mu w brzuchu. &lt;br/&gt;Ktoś powinien go nakarmić." path="ogg1/osioł1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="242" order="242" lastModified="-1">
+		<Text name="Id: 242 - Scene2: NPC_Osiol_idle: &apos;LOOK&apos; executed" id="242" order="242" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Mówię przecież, że jest głodny." path="ogg1/osioł2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="246" order="246" lastModified="-1">
+		<Text name="Id: 246 - Scene2: uszkodzenie" id="246" order="246" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="247" order="247" lastModified="-1">
+		<Text name="Id: 247 - Scene3: uszkodzenie" id="247" order="247" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="255" order="255" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Brr... Znów ten przeciąg. Ale, ale zaraz. Co to? Zapach mrożonej kapusty? &lt;br/&gt;Szczypiący, siarczysty mróz? Nie, nie, nie! Nie może być. Wróciła zima. &lt;br/&gt;Przeklęty kraj, przeklęta pogoda. Niech Cię diabli I wszystkie choroby jelit, &lt;br/&gt;zawszony Lechistanie! Ani klepsydry dłużej nie zagrzeję tu miejsca!" path="ogg1/dialog43.ogg" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="256" order="256" lastModified="-1">
+		<Text name="Id: 256 - Scene2: kolek" id="256" order="256" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="257" order="257" lastModified="-1">
+		<Text name="Id: 257 - Scene2: kolek i lancuch" id="257" order="257" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="258" order="258" lastModified="-1">
+		<Text name="Id: 258 - Scene2: item_lancuch" id="258" order="258" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="260" order="260" lastModified="-1">
+		<Text name="Id: 260 - Lancuch" id="260" order="260" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="261" order="241" lastModified="-1">
+		<Text name="Id: 261 - Scene2: item_lancuch: &apos;LOOK&apos; executed" id="261" order="241" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Może mi się przydać później. Mam chyba nawet pomysł..." path="ogg1/Łańcuch1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="262" order="242" lastModified="-1">
+		<Text name="Id: 262 - Scene2: item_lancuch: &apos;LOOK&apos; executed" id="262" order="242" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Mógłbym coś nim połączyć." path="ogg1/łańcuch2.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="263" order="263" lastModified="-1">
+		<Text name="Id: 263 - Scene1: ITEM_wiatrak: &apos;LOOK&apos; executed" id="263" order="263" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Wiatrak jaki jest, każdy widzi. Nie wynaleźliśmy &lt;br/&gt;jeszcze prądu, więc nie mam jak go napędzić." path="ogg1/wiatrak.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="264" order="264" lastModified="-1">
+		<Text name="Id: 264 - Scene2: lodowka" id="264" order="264" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="265" order="241" lastModified="-1">
+		<Text name="Id: 265 - Scene2: lodowka: &apos;LOOK&apos; executed" id="265" order="241" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nie znosi chłodu, nienawidzi wręcz... &lt;br/&gt;Już ja ci zgotuję, gagatku, oddech północy." path="ogg1/lodówka1.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="266" order="242" lastModified="-1">
+		<Text name="Id: 266 - Scene2: lodowka: &apos;LOOK&apos; executed" id="266" order="242" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Kwas chlebowy, żurek... ten facet chyba ma problem." path="ogg1/lodówka2.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 267 - Scene2: Rower1" id="267" order="267" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 268 - Scene2: Rower2" id="268" order="268" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 269 - Scene2: Rower3" id="269" order="269" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 270 - Scene2: rowerAkcje" id="270" order="270" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 278 - Scene2: rowerAkcje: &apos;Lancuch&apos; dropped" id="278" order="255" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Brr... Znów ten przeciąg. Ale, ale zaraz. Co to? Zapach mrożonej kapusty? &lt;br/&gt;Szczypiący, siarczysty mróz? Nie, nie, nie! Nie może być. Wróciła zima. &lt;br/&gt;Przeklęty kraj, przeklęta pogoda. Niech Cię diabli I wszystkie choroby jelit, &lt;br/&gt;zawszony Lechistanie! Ani klepsydry dłużej nie zagrzeję tu miejsca!" path="ogg1/dialog43.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 282 - Scene2: uszkodzenie1" id="282" order="246" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 283 - Scene2: rowerAkcje: &apos;Lancuch&apos; dropped" id="283" order="283" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 285 - Scene3: uszkodzenie1" id="285" order="247" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 111 - : Intro" id="286" order="111" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 114 - Intro: Object0" id="287" order="114" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 128 - Intro: Object0: Cursor enters object area" id="288" order="128" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Fabianowi, nie bez problemów, udało się zdobyć włoszczyznę. &lt;br/&gt;Nasz wiking przechytrzył niegodziwego Don Kiszona, lecz w obawie przed jego gniewem &lt;br/&gt;czym prędzej opuścił Ryki i wyruszył w dalszą podróż. Dobrze wiedział, że czasu pozostaje coraz mniej. &lt;br/&gt;Udał się więc na poszukiwania kolejnego składnika - ogórków kiszonych." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="290" order="290" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="291" order="291" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Pasuje! Oh, cudownie! Ile tu skrzyń, ile beczek a wszystko kiszone. Na bogów... &lt;br/&gt;A cóż to? Czy oczy mnie nie mylą? Włoszczyzna! Jaka piękna, jaka pachnąca, tfu... &lt;br/&gt;Jaka ziemista. Może jeszcze nie wszystko stracone. Pozostaje jeszcze zdobyć ogórki i śmietanę. &lt;br/&gt;Nie ma czasu do stracenia. Trzeba ruszać w drogą zanim ten stary kozioł wróci i rozpozna podstęp." path="ogg1/dialog45.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 128 - Intro: Object0: Cursor enters object area" id="294" order="128" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Nie przedłużając jednak. Po wykonaniu zadania dla wiedźmy Gesslerawy Fabian udał się w dalszą drogę. &lt;br/&gt;Na trakcie napotkał podróżnych kupców, od których usłyszał o niejakim Don Kiszonie – słynnym kwasiarzu &lt;br/&gt;i dziedzicowi fortuny magnatów włoszczyźnianych. Niewiele myśląc, nasz dzielny wiking postanowił &lt;br/&gt;udać się do miejsca, w którym urzędować miał Kiszon – miasteczka Ryki.&lt;br/&gt;" path="ogg1/narrator1a.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 128 - Intro: Object0: Cursor enters object area" id="295" order="128" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="No, no, no… Czyli to są Ryki. Mniejsze niż opowiadali, ale w gościach nie można wybrzydzać. &lt;br/&gt;Słońce jest jeszcze wysoko. Mam trochę czasu, żeby rozejrzeć się po mieście i znaleźć sklep Don Kiszona. &lt;br/&gt;Wystarczy tylko kogoś…&lt;br/&gt;&lt;br/&gt;" path="ogg1/dialog01.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 128 - Intro: Object0: Cursor enters object area" id="296" order="128" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Lechistan G, Lechistan S, Lechistan zawsze górą jest!&lt;br/&gt;My słowianie! My słowianie! Najlepiej jest nam w Lechistanie.&lt;br/&gt;Hej germanie! Hej, hej, hej! Chuj wam w dupę! Hej, hej, hej!&lt;br/&gt;" path="ogg1/dialog02.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 128 - Intro: Object0: Cursor enters object area" id="297" order="128" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="…spytać. A to ci szczęście, miejscowi! Oni na pewno będą wiedzieć.&lt;br/&gt;Przepraszam Panów, jestem nietutejszy. Czy moglibyście mi wskazać, gdzie znajdę…&lt;br/&gt;" path="ogg1/dialog03.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 128 - Intro: Object0: Cursor enters object area" id="298" order="128" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Chłopaki, widzicie cudaka? My cię zaraz bratku przywitamy. Brać go!&lt;br/&gt;&lt;br/&gt;" path="ogg1/dialog04.ogg" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 128 - Intro: Object0: Cursor enters object area" id="299" order="128" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Co? Nie, nie, nie, o nie, nie w twarz! Za co?! Co wam zrobiłem?! Zostaw moją brodę! Ah!&lt;br/&gt;&lt;br/&gt;" path="ogg1/dialog05.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
@@ -9189,15 +9653,17 @@
 		<Language name="Polski" id="0" order="0" lastModified="-1">
 		</Language>
 	</Languages>
-	<Values newId="3" versionedId="-1" tableId="20">
+	<Values newId="4" versionedId="-1" tableId="20">
 		<Value name="klucz_etap_rozmowy" id="0" order="0" lastModified="-1" ValueInt="1" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="">
 		</Value>
 		<Value name="marchew_etap_rozmowy" id="1" order="0" lastModified="-1" ValueInt="0" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="">
 		</Value>
 		<Value name="Piotrex_rozmowa" id="2" order="0" lastModified="-1" ValueInt="2" ValueRandom="T" ValueRandomMin="0" ValueRandomMax="2" ValueString="">
 		</Value>
+		<Value name="statusRoweru" id="3" order="0" lastModified="-1" ValueInt="1" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="">
+		</Value>
 	</Values>
-	<Particles newId="3" versionedId="-1" tableId="22">
+	<Particles newId="5" versionedId="-1" tableId="22">
 		<Particle name="Particle0" id="0" order="0" lastModified="-1" ParticleTexture="graphics/particle.jpg" ParticleMaterialMode="2" ParticleTilesX="4" ParticleTilesY="4" ParticleType="1" ParticleEmitterType="1" ParticleMaxParticles="23" ParticlePerTime="1.000000" ParticlePhiX="0" ParticlePhiY="27" ParticleMinSize="0.030000" ParticleMaxSize="0.300000" ParticleMinVelocity="0.010000" ParticleMaxVelocity="0.020000" ParticleMinLife="60" ParticleMaxLife="60" ParticleMinColor="8355711" ParticleMaxColor="16777215" ParticleRotationX="6" ParticleRotationZ="0" ParticleActiveStages="2" ParticleBlendColor0="0" ParticleBlendColor1="0" ParticleBlendColor2="0" ParticleBlendColor3="0" ParticleForceType="0" ParticleForceStrength="0.000000" ParticleForceRotationX="0" ParticleForceRotationZ="0" ParticleForceXPos="0.000000" ParticleForceYPos="0.000000" ParticleForceZPos="0.000000" ParticleForceBlend="0.999000" ParticleBlendMaxTile="-1" ParticlePosX="800" ParticlePosY="400" ParticleEmitterSizeX="200" ParticleEmitterSizeY="200" ParticleEmitterSizeZ="0">
 			<ParticleBlendColorCurve0>
 				<float float="0.000000"/>
@@ -10424,7 +10890,7 @@
 				<int int="1"/>
 			</ParticleBlendTilesControlPoints>
 		</Particle>
-		<Particle name="Particle0" id="1" order="0" lastModified="-1" ParticleTexture="graphics/particle.jpg" ParticleMaterialMode="2" ParticleTilesX="4" ParticleTilesY="4" ParticleType="1" ParticleEmitterType="1" ParticleMaxParticles="23" ParticlePerTime="1.000000" ParticlePhiX="0" ParticlePhiY="27" ParticleMinSize="0.030000" ParticleMaxSize="0.300000" ParticleMinVelocity="0.010000" ParticleMaxVelocity="0.020000" ParticleMinLife="60" ParticleMaxLife="60" ParticleMinColor="8355711" ParticleMaxColor="16777215" ParticleRotationX="68" ParticleRotationZ="0" ParticleActiveStages="2" ParticleBlendColor0="0" ParticleBlendColor1="0" ParticleBlendColor2="0" ParticleBlendColor3="0" ParticleForceType="0" ParticleForceStrength="0.000000" ParticleForceRotationX="0" ParticleForceRotationZ="0" ParticleForceXPos="0.000000" ParticleForceYPos="0.000000" ParticleForceZPos="0.000000" ParticleForceBlend="0.999000" ParticleBlendMaxTile="-1" ParticlePosX="800" ParticlePosY="400" ParticleEmitterSizeX="200" ParticleEmitterSizeY="200" ParticleEmitterSizeZ="0">
+		<Particle name="Particle0" id="1" order="0" lastModified="-1" ParticleTexture="graphics/particle.jpg" ParticleMaterialMode="2" ParticleTilesX="4" ParticleTilesY="4" ParticleType="1" ParticleEmitterType="1" ParticleMaxParticles="23" ParticlePerTime="1.000000" ParticlePhiX="0" ParticlePhiY="27" ParticleMinSize="0.030000" ParticleMaxSize="0.300000" ParticleMinVelocity="0.010000" ParticleMaxVelocity="0.020000" ParticleMinLife="60" ParticleMaxLife="60" ParticleMinColor="8355711" ParticleMaxColor="16777215" ParticleRotationX="-96" ParticleRotationZ="0" ParticleActiveStages="2" ParticleBlendColor0="0" ParticleBlendColor1="0" ParticleBlendColor2="0" ParticleBlendColor3="0" ParticleForceType="0" ParticleForceStrength="0.000000" ParticleForceRotationX="0" ParticleForceRotationZ="0" ParticleForceXPos="0.000000" ParticleForceYPos="0.000000" ParticleForceZPos="0.000000" ParticleForceBlend="0.999000" ParticleBlendMaxTile="-1" ParticlePosX="200" ParticlePosY="400" ParticleEmitterSizeX="200" ParticleEmitterSizeY="200" ParticleEmitterSizeZ="0">
 			<ParticleBlendColorCurve0>
 				<float float="0.000000"/>
 				<float float="0.000000"/>
@@ -12876,14 +13342,2466 @@
 				<int int="1"/>
 			</ParticleBlendTilesControlPoints>
 		</Particle>
+		<Particle name="Particle0" id="3" order="0" lastModified="-1" ParticleTexture="graphics/particle.jpg" ParticleMaterialMode="2" ParticleTilesX="4" ParticleTilesY="4" ParticleType="1" ParticleEmitterType="1" ParticleMaxParticles="23" ParticlePerTime="1.000000" ParticlePhiX="0" ParticlePhiY="27" ParticleMinSize="0.030000" ParticleMaxSize="0.300000" ParticleMinVelocity="0.010000" ParticleMaxVelocity="0.020000" ParticleMinLife="60" ParticleMaxLife="60" ParticleMinColor="8355711" ParticleMaxColor="16777215" ParticleRotationX="6" ParticleRotationZ="0" ParticleActiveStages="2" ParticleBlendColor0="0" ParticleBlendColor1="0" ParticleBlendColor2="0" ParticleBlendColor3="0" ParticleForceType="0" ParticleForceStrength="0.000000" ParticleForceRotationX="0" ParticleForceRotationZ="0" ParticleForceXPos="0.000000" ParticleForceYPos="0.000000" ParticleForceZPos="0.000000" ParticleForceBlend="0.999000" ParticleBlendMaxTile="-1" ParticlePosX="800" ParticlePosY="400" ParticleEmitterSizeX="200" ParticleEmitterSizeY="200" ParticleEmitterSizeZ="0">
+			<ParticleBlendColorCurve0>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendColorCurve0>
+			<ParticleBlendColorCurve1>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendColorCurve1>
+			<ParticleBlendColorCurve2>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendColorCurve2>
+			<ParticleBlendColorCurve3>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendColorCurve3>
+			<ParticleColorControlPoints0>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleColorControlPoints0>
+			<ParticleColorControlPoints1>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleColorControlPoints1>
+			<ParticleColorControlPoints2>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleColorControlPoints2>
+			<ParticleColorControlPoints3>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleColorControlPoints3>
+			<ParticleBlendSizeCurve>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+				<float float="1.000000"/>
+			</ParticleBlendSizeCurve>
+			<ParticleSizeControlPoints>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleSizeControlPoints>
+			<ParticleBlendTilesCurve>
+				<float float="0.000000"/>
+				<float float="0.003735"/>
+				<float float="0.014577"/>
+				<float float="0.031979"/>
+				<float float="0.055394"/>
+				<float float="0.084275"/>
+				<float float="0.118076"/>
+				<float float="0.156250"/>
+				<float float="0.198251"/>
+				<float float="0.243531"/>
+				<float float="0.291545"/>
+				<float float="0.341746"/>
+				<float float="0.393586"/>
+				<float float="0.446520"/>
+				<float float="0.500000"/>
+				<float float="0.553480"/>
+				<float float="0.606414"/>
+				<float float="0.658254"/>
+				<float float="0.708455"/>
+				<float float="0.756469"/>
+				<float float="0.801749"/>
+				<float float="0.843750"/>
+				<float float="0.881924"/>
+				<float float="0.915725"/>
+				<float float="0.944606"/>
+				<float float="0.968021"/>
+				<float float="0.985423"/>
+				<float float="0.996264"/>
+				<float float="1.000000"/>
+				<float float="0.994434"/>
+				<float float="0.978850"/>
+				<float float="0.954917"/>
+				<float float="0.924304"/>
+				<float float="0.888683"/>
+				<float float="0.849722"/>
+				<float float="0.809091"/>
+				<float float="0.768460"/>
+				<float float="0.729499"/>
+				<float float="0.693878"/>
+				<float float="0.663265"/>
+				<float float="0.639332"/>
+				<float float="0.623748"/>
+				<float float="0.618182"/>
+				<float float="0.636364"/>
+				<float float="0.635762"/>
+				<float float="0.633987"/>
+				<float float="0.631080"/>
+				<float float="0.627087"/>
+				<float float="0.622050"/>
+				<float float="0.616013"/>
+				<float float="0.609020"/>
+				<float float="0.601113"/>
+				<float float="0.592337"/>
+				<float float="0.582734"/>
+				<float float="0.572349"/>
+				<float float="0.561224"/>
+				<float float="0.549404"/>
+				<float float="0.536932"/>
+				<float float="0.523851"/>
+				<float float="0.510204"/>
+				<float float="0.496036"/>
+				<float float="0.481389"/>
+				<float float="0.466308"/>
+				<float float="0.450835"/>
+				<float float="0.435014"/>
+				<float float="0.418889"/>
+				<float float="0.402503"/>
+				<float float="0.385900"/>
+				<float float="0.369123"/>
+				<float float="0.352215"/>
+				<float float="0.335220"/>
+				<float float="0.318182"/>
+				<float float="0.301144"/>
+				<float float="0.284149"/>
+				<float float="0.267241"/>
+				<float float="0.250464"/>
+				<float float="0.233860"/>
+				<float float="0.217474"/>
+				<float float="0.201349"/>
+				<float float="0.185529"/>
+				<float float="0.170056"/>
+				<float float="0.154974"/>
+				<float float="0.140328"/>
+				<float float="0.126160"/>
+				<float float="0.112513"/>
+				<float float="0.099432"/>
+				<float float="0.086959"/>
+				<float float="0.075139"/>
+				<float float="0.064015"/>
+				<float float="0.053629"/>
+				<float float="0.044027"/>
+				<float float="0.035251"/>
+				<float float="0.027344"/>
+				<float float="0.020350"/>
+				<float float="0.014313"/>
+				<float float="0.009276"/>
+				<float float="0.005283"/>
+				<float float="0.002377"/>
+				<float float="0.000601"/>
+				<float float="0.000000"/>
+			</ParticleBlendTilesCurve>
+			<ParticleBlendTilesControlPoints>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleBlendTilesControlPoints>
+		</Particle>
+		<Particle name="Particle0" id="4" order="0" lastModified="-1" ParticleTexture="graphics\20170509\lancuch.png" ParticleMaterialMode="2" ParticleTilesX="1" ParticleTilesY="1" ParticleType="1" ParticleEmitterType="2" ParticleMaxParticles="38" ParticlePerTime="1.000000" ParticlePhiX="160" ParticlePhiY="182" ParticleMinSize="0.030000" ParticleMaxSize="0.010000" ParticleMinVelocity="0.010000" ParticleMaxVelocity="0.020000" ParticleMinLife="60" ParticleMaxLife="60" ParticleMinColor="8355711" ParticleMaxColor="16777215" ParticleRotationX="0" ParticleRotationZ="0" ParticleActiveStages="1" ParticleBlendColor0="0" ParticleBlendColor1="0" ParticleBlendColor2="0" ParticleBlendColor3="0" ParticleForceType="2" ParticleForceStrength="0.000000" ParticleForceRotationX="0" ParticleForceRotationZ="0" ParticleForceXPos="0.000000" ParticleForceYPos="0.000000" ParticleForceZPos="0.000000" ParticleForceBlend="0.999000" ParticleBlendMaxTile="-1" ParticlePosX="590" ParticlePosY="500" ParticleEmitterSizeX="50" ParticleEmitterSizeY="50" ParticleEmitterSizeZ="0">
+			<ParticleBlendColorCurve0>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendColorCurve0>
+			<ParticleBlendColorCurve1>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendColorCurve1>
+			<ParticleBlendColorCurve2>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendColorCurve2>
+			<ParticleBlendColorCurve3>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendColorCurve3>
+			<ParticleColorControlPoints0>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleColorControlPoints0>
+			<ParticleColorControlPoints1>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleColorControlPoints1>
+			<ParticleColorControlPoints2>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleColorControlPoints2>
+			<ParticleColorControlPoints3>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleColorControlPoints3>
+			<ParticleBlendSizeCurve>
+				<float float="1.000000"/>
+				<float float="0.999176"/>
+				<float float="0.996741"/>
+				<float float="0.992750"/>
+				<float float="0.987259"/>
+				<float float="0.980324"/>
+				<float float="0.972000"/>
+				<float float="0.962343"/>
+				<float float="0.951407"/>
+				<float float="0.939250"/>
+				<float float="0.925926"/>
+				<float float="0.911491"/>
+				<float float="0.896000"/>
+				<float float="0.879509"/>
+				<float float="0.862074"/>
+				<float float="0.843750"/>
+				<float float="0.824593"/>
+				<float float="0.804657"/>
+				<float float="0.784000"/>
+				<float float="0.762676"/>
+				<float float="0.740741"/>
+				<float float="0.718250"/>
+				<float float="0.695259"/>
+				<float float="0.671824"/>
+				<float float="0.648000"/>
+				<float float="0.623843"/>
+				<float float="0.599407"/>
+				<float float="0.574750"/>
+				<float float="0.549926"/>
+				<float float="0.524991"/>
+				<float float="0.500000"/>
+				<float float="0.475009"/>
+				<float float="0.450074"/>
+				<float float="0.425250"/>
+				<float float="0.400593"/>
+				<float float="0.376157"/>
+				<float float="0.352000"/>
+				<float float="0.328176"/>
+				<float float="0.304741"/>
+				<float float="0.281750"/>
+				<float float="0.259259"/>
+				<float float="0.237324"/>
+				<float float="0.216000"/>
+				<float float="0.195343"/>
+				<float float="0.175407"/>
+				<float float="0.156250"/>
+				<float float="0.137926"/>
+				<float float="0.120491"/>
+				<float float="0.104000"/>
+				<float float="0.088509"/>
+				<float float="0.074074"/>
+				<float float="0.060750"/>
+				<float float="0.048593"/>
+				<float float="0.037657"/>
+				<float float="0.028000"/>
+				<float float="0.019676"/>
+				<float float="0.012741"/>
+				<float float="0.007250"/>
+				<float float="0.003259"/>
+				<float float="0.000824"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendSizeCurve>
+			<ParticleSizeControlPoints>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleSizeControlPoints>
+			<ParticleBlendTilesCurve>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+				<float float="0.000000"/>
+			</ParticleBlendTilesCurve>
+			<ParticleBlendTilesControlPoints>
+				<int int="1"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="0"/>
+				<int int="1"/>
+			</ParticleBlendTilesControlPoints>
+		</Particle>
 	</Particles>
-	<ParticleContainers newId="3" versionedId="-1" tableId="23">
+	<ParticleContainers newId="5" versionedId="-1" tableId="23">
 		<ParticleContainer name="powiew z lodówki" id="0" order="0" lastModified="-1" ParticleContainerCameraZPosition="-3.000000" ParticleContainerCameraZoom="0.666667" ParticleContainerLeadTime="0">
 			<ParticleContainerParticles>
 				<Link parentLink="T" id="0" tableId="22" LinkAny="F"/>
 			</ParticleContainerParticles>
 		</ParticleContainer>
-		<ParticleContainer name="powiew z lodówki na kiszona1" id="1" order="2" lastModified="-1" ParticleContainerCameraZPosition="-3.000000" ParticleContainerCameraZoom="0.666667" ParticleContainerLeadTime="0">
+		<ParticleContainer name="powiew z lodówki na kiszona3" id="1" order="2" lastModified="-1" ParticleContainerCameraZPosition="-3.000000" ParticleContainerCameraZoom="0.666667" ParticleContainerLeadTime="0">
 			<ParticleContainerParticles>
 				<Link parentLink="T" id="1" tableId="22" LinkAny="F"/>
 			</ParticleContainerParticles>
@@ -12891,6 +15809,16 @@
 		<ParticleContainer name="powiew z lodówki3" id="2" order="1" lastModified="-1" ParticleContainerCameraZPosition="-3.000000" ParticleContainerCameraZoom="0.666667" ParticleContainerLeadTime="0">
 			<ParticleContainerParticles>
 				<Link parentLink="T" id="2" tableId="22" LinkAny="F"/>
+			</ParticleContainerParticles>
+		</ParticleContainer>
+		<ParticleContainer name="powiew z lodówki na kiszona" id="3" order="3" lastModified="-1" ParticleContainerCameraZPosition="-3.000000" ParticleContainerCameraZoom="0.666667" ParticleContainerLeadTime="0">
+			<ParticleContainerParticles>
+				<Link parentLink="T" id="3" tableId="22" LinkAny="F"/>
+			</ParticleContainerParticles>
+		</ParticleContainer>
+		<ParticleContainer name="rower" id="4" order="4" lastModified="-1" ParticleContainerCameraZPosition="-3.000000" ParticleContainerCameraZoom="0.666667" ParticleContainerLeadTime="0">
+			<ParticleContainerParticles>
+				<Link parentLink="T" id="4" tableId="22" LinkAny="F"/>
 			</ParticleContainerParticles>
 		</ParticleContainer>
 	</ParticleContainers>
@@ -12924,12 +15852,12 @@
 				<point x="220" y="724"/>
 				<point x="954" y="724"/>
 				<point x="969" y="519"/>
-				<point x="791" y="497"/>
-				<point x="696" y="504"/>
-				<point x="575" y="492"/>
-				<point x="512" y="441"/>
-				<point x="420" y="518"/>
-				<point x="301" y="535"/>
+				<point x="823" y="522"/>
+				<point x="711" y="537"/>
+				<point x="622" y="546"/>
+				<point x="523" y="555"/>
+				<point x="389" y="565"/>
+				<point x="289" y="558"/>
 			</WaySystemBorder>
 			<WaySystemPoints>
 				<Link parentLink="T" id="26" tableId="5" LinkAny="F"/>
