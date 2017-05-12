@@ -1914,7 +1914,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="NPC_Osiol_idle" id="56" order="3" lastModified="-1" ObjectDirection="90" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="NPC_Osiol_idle" id="56" order="3" lastModified="-1" ObjectDirection="90" ObjectCenter="499" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="203" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="638" y="351"/>
@@ -1949,7 +1949,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="625" y="515"/>
+			<ObjectPosition x="640" y="558"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -2139,7 +2139,7 @@
 			<ObjectName parentLink="T" id="257" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="24" tableId="10" LinkAny="F"/>
+			<ObjectCondition parentLink="F" id="18" tableId="10" LinkAny="F"/>
 			<ObjectSprite parentLink="T" id="60" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
@@ -2155,7 +2155,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="item_lancuch" id="66" order="7" lastModified="-1" ObjectDirection="135" ObjectCenter="482" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="item_lancuch" id="66" order="7" lastModified="-1" ObjectDirection="90" ObjectCenter="497" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="258" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="563" y="445"/>
@@ -2181,7 +2181,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="652" y="519"/>
+			<ObjectPosition x="585" y="574"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -2324,7 +2324,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="376" y="590"/>
+			<ObjectPosition x="341" y="594"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -3584,7 +3584,7 @@
 			<ActionPartAltLink parentLink="F" id="0" tableId="3" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="114" versionedId="-1" tableId="9">
+	<Animations newId="113" versionedId="-1" tableId="9">
 		<Animation name="Unnamed" id="9" order="9" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -8446,7 +8446,7 @@
 			</AnimationWalkSteps>
 		</Animation>
 	</Animations>
-	<Conditions newId="27" versionedId="-1" tableId="10">
+	<Conditions newId="25" versionedId="-1" tableId="10">
 		<Condition name="con_start" id="2" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
 			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -14568,7 +14568,7 @@
 				<int int="1"/>
 			</ParticleBlendTilesControlPoints>
 		</Particle>
-		<Particle name="Particle0" id="4" order="0" lastModified="-1" ParticleTexture="graphics\20170509\lancuch.png" ParticleMaterialMode="2" ParticleTilesX="1" ParticleTilesY="1" ParticleType="1" ParticleEmitterType="2" ParticleMaxParticles="38" ParticlePerTime="1.000000" ParticlePhiX="160" ParticlePhiY="182" ParticleMinSize="0.030000" ParticleMaxSize="0.010000" ParticleMinVelocity="0.010000" ParticleMaxVelocity="0.020000" ParticleMinLife="60" ParticleMaxLife="60" ParticleMinColor="8355711" ParticleMaxColor="16777215" ParticleRotationX="0" ParticleRotationZ="0" ParticleActiveStages="1" ParticleBlendColor0="0" ParticleBlendColor1="0" ParticleBlendColor2="0" ParticleBlendColor3="0" ParticleForceType="2" ParticleForceStrength="0.000000" ParticleForceRotationX="0" ParticleForceRotationZ="0" ParticleForceXPos="0.000000" ParticleForceYPos="0.000000" ParticleForceZPos="0.000000" ParticleForceBlend="0.999000" ParticleBlendMaxTile="-1" ParticlePosX="590" ParticlePosY="500" ParticleEmitterSizeX="50" ParticleEmitterSizeY="50" ParticleEmitterSizeZ="0">
+		<Particle name="Particle0" id="4" order="0" lastModified="-1" ParticleTexture="graphics/20170509/lancuch.png" ParticleMaterialMode="2" ParticleTilesX="1" ParticleTilesY="1" ParticleType="1" ParticleEmitterType="2" ParticleMaxParticles="38" ParticlePerTime="1.000000" ParticlePhiX="160" ParticlePhiY="182" ParticleMinSize="0.030000" ParticleMaxSize="0.010000" ParticleMinVelocity="0.010000" ParticleMaxVelocity="0.020000" ParticleMinLife="60" ParticleMaxLife="60" ParticleMinColor="8355711" ParticleMaxColor="16777215" ParticleRotationX="0" ParticleRotationZ="0" ParticleActiveStages="1" ParticleBlendColor0="0" ParticleBlendColor1="0" ParticleBlendColor2="0" ParticleBlendColor3="0" ParticleForceType="2" ParticleForceStrength="0.000000" ParticleForceRotationX="0" ParticleForceRotationZ="0" ParticleForceXPos="0.000000" ParticleForceYPos="0.000000" ParticleForceZPos="0.000000" ParticleForceBlend="0.999000" ParticleBlendMaxTile="-1" ParticlePosX="590" ParticlePosY="500" ParticleEmitterSizeX="50" ParticleEmitterSizeY="50" ParticleEmitterSizeZ="0">
 			<ParticleBlendColorCurve0>
 				<float float="0.000000"/>
 				<float float="0.000000"/>
