@@ -2680,7 +2680,6 @@
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
-				<Link parentLink="T" id="191" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="232" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
@@ -3254,10 +3253,6 @@
 			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Piotrex&apos;" id="191" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="219" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="1" tableId="0" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="If condition &apos;Piotrex_pierwsza_rozmowa&apos; is true" id="194" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="16" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3574,9 +3569,9 @@
 			<ActionPartLink parentLink="F" id="25" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Kiszon&apos;" id="302" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Fabian&apos;" id="302" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="319" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Else" id="303" order="3" lastModified="-1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3667,7 +3662,7 @@
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="116" versionedId="-1" tableId="9">
+	<Animations newId="115" versionedId="-1" tableId="9">
 		<Animation name="Unnamed" id="9" order="9" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -9492,11 +9487,6 @@
 		<Text name="Id: 218 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="218" order="209" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Jeszcze przyjezdni będą mieli najgorsze zdanie o Lechitach, &lt;br/&gt;a tak to nie może być! Może faktycznie niebezpiecznie &lt;br/&gt;jest podróżować samotnie. Weź to." path="ogg1/dialog40.ogg" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 219 - Scene1: ITEM_wiatrak: &apos;LOOK&apos; executed" id="219" order="219" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="No bo wiesz. Pierwszy gratis, drugi za pół ceny. &lt;br/&gt;Lepiej dmuchać na zimne. Co nie? Hehehe…" path="ogg1/dialog40a.ogg" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 226 - Scene1: dialog_Piotrex: &apos;LOOK&apos; executed" id="226" order="226" lastModified="-1">
